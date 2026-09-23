@@ -31,6 +31,10 @@ project.
   <img src="assets/runtime-map.jpeg" alt="Hermes runtime and optional ecosystem layers" width="800">
 </p>
 
+<p align="center">
+  <video src="https://raw.githubusercontent.com/itsdarklikehell/awesome-hermes-agent/main/gource.mp4" controls width="800"></video>
+</p>
+
 > Ecosystem status (last reviewed: 2026-07-16)
 > - Hermes Agent: [v0.18.2 (v2026.7.7.2)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7.2)
 > - Core repo: [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
