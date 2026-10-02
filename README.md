@@ -16,6 +16,13 @@
 
 # Awesome Hermes Agent
 
+[![CI](https://github.com/itsdarklikehell/awesome-hermes-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/itsdarklikehell/awesome-hermes-agent/actions/workflows/ci.yml)
+[![Gource](https://github.com/itsdarklikehell/awesome-hermes-agent/actions/workflows/gource.yml/badge.svg)](https://github.com/itsdarklikehell/awesome-hermes-agent/actions/workflows/gource.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/itsdarklikehell/awesome-hermes-agent)](https://github.com/itsdarklikehell/awesome-hermes-agent/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/itsdarklikehell/awesome-hermes-agent)](https://github.com/itsdarklikehell/awesome-hermes-agent/pulls)
+
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Validate](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml/badge.svg)](https://github.com/0xNyk/awesome-hermes-agent/actions/workflows/validate.yml)
