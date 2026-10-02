@@ -1,0 +1,31 @@
+name: Gource Visualization
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+  workflow_dispatch:
+
+jobs:
+  gource:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Gource
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gource ffmpeg
+
+      - name: Generate Gource Video
+        run: |
+          mkdir -p gource-output
+          gource -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -pix_fmt yuv420p -preset fast -crf 23 gource-output/gource.mp4
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gource-video
+          path: gource-output/gource.mp4
+          retention-days: 30
